@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & Models (too large for Git)
+data/
+*.csv
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kaggle
+kaggle.json
