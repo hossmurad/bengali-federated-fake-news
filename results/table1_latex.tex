@@ -1,0 +1,15 @@
+
+\begin{table}[h]
+\centering
+\caption{Test set performance comparison (4-class Bengali fake news detection).}
+\label{tab:results}
+\begin{tabular}{lccc}
+\hline
+\textbf{Method} & \textbf{Accuracy} & \textbf{F1-macro} & \textbf{F1-weighted} \\
+\hline
+Centralized BanglaBERT & 0.7645 & 0.4923 & 0.7828 \\
+FedAvg (5 clients) & 0.7766 & 0.4749 & 0.7877 \\
+FedProx (5 clients) & 0.8095 & 0.4990 & 0.8103 \\
+\hline
+\end{tabular}
+\end{table}

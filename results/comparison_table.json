@@ -1,0 +1,16 @@
+{
+  "centralized": {
+    "test_accuracy": 0.7645,
+    "test_f1_macro": 0.4923,
+    "test_f1_weighted": 0.7828
+  },
+  "federated": {
+    "test_accuracy": 0.7765910592380533,
+    "test_f1_macro": 0.47489974593317785,
+    "test_f1_weighted": 0.7877322020495169
+  },
+  "gap": {
+    "accuracy": 0.012091059238053314,
+    "f1_macro": -0.017400254066822163
+  }
+}
